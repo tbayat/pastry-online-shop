@@ -1,6 +1,7 @@
 import Container from "react-bootstrap/Container";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
+import { LinkContainer } from "react-router-bootstrap";
 
 function Navigation() {
   return (
@@ -17,21 +18,29 @@ function Navigation() {
         <Navbar.Brand
           href="#home"
           style={{
-            fontFamily: "fantasy",
+            fontFamily: "monospace",
             fontWeight: "bold",
             color: "#864149",
             textShadow: "2px 2px 4px #000000",
           }}
         >
-          Happy Cake
+          <img alt="logo" src="cakelogo.png" width={50} height={50} />
         </Navbar.Brand>
         <Navbar.Toggle />
         <Navbar.Collapse className="justify-content-end">
           <Nav>
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#about us">About Us</Nav.Link>
-            <Nav.Link href="#menu">Menu</Nav.Link>
-            <Nav.Link href="#contact">Contact Us</Nav.Link>
+            <LinkContainer to="/Home">
+              <Nav.Link>Home</Nav.Link>
+            </LinkContainer>
+            <LinkContainer to="/about">
+              <Nav.Link>About Us</Nav.Link>
+            </LinkContainer>
+            <LinkContainer to="/menu">
+              <Nav.Link>Menu</Nav.Link>
+            </LinkContainer>
+            <LinkContainer to="/contact">
+              <Nav.Link>Contact Us</Nav.Link>
+            </LinkContainer>
           </Nav>
         </Navbar.Collapse>
       </Container>

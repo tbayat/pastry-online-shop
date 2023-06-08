@@ -1,16 +1,27 @@
+html {
+  width: 100%;
+  height: 100%;
+}
+
 body {
-  margin: 30px;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: rgb(241,191,213);
-  background: linear-gradient(109deg, rgba(241,191,213,1) 15%, rgba(233,148,148,1) 75%);
+  background: rgb(241, 191, 213);
+  background: linear-gradient(
+    109deg,
+    rgba(241, 191, 213, 1) 15%,
+    rgba(233, 148, 148, 1) 75%
+  );
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
@@ -18,3 +29,18 @@ code {
   background-color: aliceblue !important;
 }
 
+.footer {
+  border-top: 2px solid #b76369;
+  color: "#AAABA8";
+  font-family: serif;
+  bottom: 0;
+  height: 60px; /* Height of the footer */
+  width: 100%;
+  text-align: center;
+}
+
+.carousel-item {
+  border-radius: 360px;
+  background-color: rgba(0, 0, 0, 0);
+  overflow: hidden;
+}
