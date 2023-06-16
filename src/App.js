@@ -6,21 +6,26 @@ import About from "./pages/about";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import ContactUs from "./pages/contact";
 import Menu from "./pages/menu";
+import OrderNow from "./pages/order";
 
 function App() {
   return (
-    <>
-      <Router>
-        <Navigation />
-        <Routes>
-          <Route exact path="/Home" exact element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/contact" element={<ContactUs />} />
-          <Route path="/menu" element={<Menu />} />
-        </Routes>
-      </Router>
+    <div className="page-container">
+      <div className="content">
+        <Router>
+          <Navigation />
+          <Routes>
+            <Route exact path="/" exact element={<Home />} />
+            <Route path="/Home" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/contact" element={<ContactUs />} />
+            <Route path="/menu" element={<Menu />} />
+            <Route path="/order" element={<OrderNow />} />
+          </Routes>
+        </Router>
+      </div>
       <Footer />
-    </>
+    </div>
   );
 }
 

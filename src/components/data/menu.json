@@ -1,0 +1,32 @@
+[
+  {
+    "url": "cakelogo.png",
+    "name": "The Caesar",
+    "description": "Crisp romaine lettuce tossed with our homemade Caesar dressing, croutons, and shredded parmesan cheese.",
+    "price": "19"
+  },
+  {
+    "url": "logo192.png",
+    "name": "Surf & Turf",
+    "description": "A grilled, queen-cut ribeye served with shrimp and scallop alfredo.",
+    "price": "17"
+  },
+  {
+    "url": "logo192.png",
+    "name": "Creamy Sage",
+    "description": "Chicken breast sautéed with fresh sage and prosciutto. Served atop creamy asiago linguini.",
+    "price": "21"
+  },
+  {
+    "url": "logo192.png",
+    "name": "From the Sea",
+    "description": "Fresh haddock, gulf shrimp, and sea scallops dipped in beer batter and fried to a golden brown.",
+    "price": "23"
+  },
+  {
+    "url": "logo192.png",
+    "name": "BB's Tenderloin",
+    "description": "Tenderloin tips, sautéed with bacon and mushrooms and finished with a bourbon-BBQ sauce.",
+    "price": "18"
+  }
+]

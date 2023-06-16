@@ -11,7 +11,7 @@ function Navigation() {
         color: "#AAABA8",
         fontFamily: "serif",
         fontSize: "20px",
-        borderBottom: "2px solid #B76369",
+        backgroundColor: "rgba(173, 138, 133, 0.8)",
       }}
     >
       <Container>

@@ -1,5 +1,8 @@
+import CakesMenu from "../components/cakesmenu";
+import menu from "../components/data/menu.json";
+
 function Menu() {
-  return <h1>fhjfkjhjkhkh</h1>;
+  return <CakesMenu cakes={menu} />;
 }
 
 export default Menu;

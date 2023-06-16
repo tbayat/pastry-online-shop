@@ -1,23 +1,15 @@
 html {
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 100vh;
 }
 
 body {
-  width: 100%;
-  height: 100%;
-  padding: 10px;
+  width: 100vw;
+  height: 100vh;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  background: rgb(241, 191, 213);
-  background: linear-gradient(
-    109deg,
-    rgba(241, 191, 213, 1) 15%,
-    rgba(233, 148, 148, 1) 75%
-  );
+  background-color: rgba(203, 178, 175, 0.8);
 }
 
 code {
@@ -29,18 +21,28 @@ code {
   background-color: aliceblue !important;
 }
 
-.footer {
-  border-top: 2px solid #b76369;
-  color: "#AAABA8";
-  font-family: serif;
-  bottom: 0;
-  height: 60px; /* Height of the footer */
-  width: 100%;
-  text-align: center;
+.home {
+  max-width: 100%;
 }
 
-.carousel-item {
-  border-radius: 360px;
-  background-color: rgba(0, 0, 0, 0);
-  overflow: hidden;
+.footer {
+  border-top: 2px solid #b76369;
+  padding-top: 10px;
+  color: "#AAABA8";
+  font-family: serif;
+  width: 100%;
+  text-align: center;
+  background-color: rgb(212, 199, 243);
+  bottom: 0;
+}
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 100%;
+  justify-content: stretch;
+}
+.content {
+  min-height: 100vh;
 }
