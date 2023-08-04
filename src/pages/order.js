@@ -20,19 +20,13 @@ function OrderNow() {
         order!*
       </h4>
       <h5>
-        We prepare our baked goods daily in the store to be sure that you have
-        the freshest products possible. The up side is that it is all made right
-        there on the spot just for you, the down side is that this can cause
-        certain limitations. Please take note of the following points below to
-        help avoid any disappointment or confusion:
+        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+        nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
+        volutpat.:
       </h5>
       <ul>
         <li>
           Orders must be placed before 12:00 noon for pick up the following day.
-        </li>
-        <li>
-          If you would like to order more than 3 cheesecakes (36 pieces), we ask
-          you to do this at least 48 hours in advance.
         </li>
         <li>All orders will be confirmed via email.</li>
         <li>
@@ -41,7 +35,7 @@ function OrderNow() {
         </li>
         <li>
           Orders above €35.00 must be paid in advance and may be paid on line to
-          the account of: Cheesecake Company NL 45 INGB 0007385469
+          the account of: HappyCake Company NL ** AAAA ******
         </li>
       </ul>
       <br />

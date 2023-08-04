@@ -40,12 +40,9 @@ function About() {
                   textJustify: "inter-word",
                 }}
               >
-                In my younger and more vulnerable years my father gave me some
-                advice that I've been turning over in my mind ever since.
-                'Whenever you feel like criticizing anyone,' he told me, 'just
-                remember that all the people in this world haven't had the
-                advantages that you've had.' Tip: Resize the browser window to
-                see how the value "justify" works.
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                diam nonummy nibh euismod tincidunt ut laoreet dolore magna
+                aliquam erat volutpat.
               </h4>
             </div>
           </div>
